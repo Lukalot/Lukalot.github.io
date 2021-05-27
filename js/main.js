@@ -84,5 +84,10 @@
 		contentWayPoint();
 	});
 
+	var cssLink = document.createElement("link");
+	cssLink.href = "../css/castle_card_style.css"; 
+	cssLink.rel = "stylesheet"; 
+	cssLink.type = "text/css"; 
+	frames['castle_card_1'].document.head.appendChild(cssLink);
 
 }());
