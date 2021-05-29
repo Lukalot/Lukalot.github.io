@@ -1,16 +1,10 @@
+# lukena.cc, Luke N. Arnold's personal website
+Includes my blog, projects, details, and simulations.
 
-TITLE: 
-Singular - Responsive Free HTML5 Bootstrap Template
+## CREDITS:
 
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
-
-
-CREDITS:
+Initial Template
+http://freehtml5.co/
 
 Bootstrap
 http://getbootstrap.com/
