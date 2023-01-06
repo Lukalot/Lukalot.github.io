@@ -48,12 +48,17 @@
       margin-left:8px;
       overflow-x:hidden;
       overflow-y:auto;
-      flex: 0 0 25em;
+      flex: 0 0 35em;
     }
     .jukebox {
       outline: 3px dashed #FFFFFF;
       outline-offset: -3px;
       height:500px;
+    }
+    @media (max-width: 1600px) {
+      .sidebar {
+        flex:0 0 25em;
+      }
     }
     @media (max-width: 1000px) {
       .sidebar {
