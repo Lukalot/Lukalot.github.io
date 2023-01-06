@@ -47,16 +47,20 @@
       margin-left:8px;
       overflow-x:hidden;
       overflow-y:auto;
+      flex: 0 0 25em;
     }
     .jukebox {
       outline: 3px dashed #FFFFFF;
       outline-offset: -3px;
-      height:450px;
+      height:500px;
+    }
+    @media (max-width: 1000px) {
+      .sidebar {
+        flex:0 0 17em;
+      }
     }
     @media (max-width: 620px) {
       .sidebar {
-        visibility: none;
-        filter: blur(100%);
         display: none;
       }
     }
@@ -66,9 +70,13 @@
       <div style="flex:1;">
         <iframe class="invert chat" src="https://webchat.quakenet.org/?channels=campfire&uio=MTE9MjA16a" width="100%" height="100%"></iframe>
       </div>
-      <div class="sidebar" style="flex:0 0 25em;">
+      <div class="sidebar" style="">
         <iframe class="jukebox jukeboxinvert" src="https://jukebox.today/campfire" width="100%" frameborder="0"></iframe>
-        <div></div>
+        <div height="100%" width="100%">
+          <h1>
+            Hello
+          </h1>
+        </div>
       </div>
     </div>
   </body>
