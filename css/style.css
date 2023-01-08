@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -491,6 +493,15 @@ textarea.form-control {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.camplink {
+  color: #6F929A;
+}
+
+.camplink:hover {
+  color: #96c7d1;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
